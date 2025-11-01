@@ -13,6 +13,10 @@ build/
 .env.development.local
 .env.test.local
 .env.production.local
+*/.env
+*/.env.local
+backend/.env
+frontend/.env.local
 
 # Vercel
 .vercel

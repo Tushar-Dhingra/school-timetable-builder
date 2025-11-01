@@ -82,13 +82,19 @@
    - Configure:
      - **Framework Preset**: Next.js
      - **Root Directory**: `frontend`
+   - Click "Deploy" (initial deployment without env vars)
 
-2. **Add Environment Variables**
-   - In project settings, go to "Environment Variables"
+2. **Add Environment Variables (IMPORTANT)**
+   - After initial deployment, go to your project dashboard
+   - Click "Settings" tab
+   - Click "Environment Variables" in left sidebar
+   - Click "Add New" button
    - Add:
-     - **Key**: `NEXT_PUBLIC_API_URL`
-     - **Value**: `https://your-render-backend-url.onrender.com/api`
-     - **Environment**: All (Production, Preview, Development)
+     - **Name**: `NEXT_PUBLIC_API_URL`
+     - **Value**: `https://your-render-backend-url.onrender.com/api` (replace with actual Render URL)
+     - **Environments**: Check all boxes (Production, Preview, Development)
+   - Click "Save"
+   - **Redeploy**: Go to "Deployments" tab and click "Redeploy" on latest deployment
 
 3. **Deploy**
    - Click "Deploy"
