@@ -1,0 +1,13 @@
+{
+  "classes": [
+    "9A", "10A", "10B"
+  ],
+  "subjects": [
+    "English", "Maths", "Science", "Social Science", "Hindi"
+  ],
+  "teachers": [
+    "Mr. Ravi Menon", "Ms. Priya Sharma", "Mr. Amit Patel"
+  ],
+  "periods": [1, 2, 3, 4, 5, 6, 7, 8],
+  "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+}

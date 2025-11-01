@@ -1,0 +1,20 @@
+{
+  "Class 9A": [
+    {
+      "day": "Mon",
+      "period": 2,
+      "className": "Class 9A",
+      "subject": "Mathematics",
+      "teacher": "Mr. Ravi Menon"
+    }
+  ],
+  "Class 9B": [
+    {
+      "day": "Mon",
+      "period": 5,
+      "className": "Class 9B",
+      "subject": "Physics",
+      "teacher": "Mr. Ravi Menon"
+    }
+  ]
+}
